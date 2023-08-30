@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> especies marinas </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- carga la pagina principal -->
+<body class="loading">
+
+	<!--start  header inicia -  con los titulos para deslizarnos entre paginas  -->
+
+	<header>
+		<div class="inner">
+			<div class="burger"></div>
+			<nav>
+				<a class="active" href="#">Especies de tierra</a>
+				<a href="#">Otros Animales</a>
+				<a href="#">Ayuda</a>
+				<a href="#">Proxomamente...</a>
+			</nav>
+		</div>
+	</header>
+
+	<!-- ESTE SIRVE PARA INICIAR UN COMENTARIO
+	ESTE SIRVE PARA TERMINAR O CERRAR EL COMENTARIO MUY IMPORTANTE NO OLVIDAR-->
+	<main>
+		<div id="slider">
+
+			<div class="slider-inner">
+				<div id="slider-content">
+					<div class="meta">Species</div>
+					<h2 id="slide-title">tiburon<br>blanco</h2>
+					<span data-slide-title="0">TIburon<br>Blanco</span>
+					<span data-slide-title="1">delfin <br>comun</span>
+					<span data-slide-title="2">mantaralla<br>gigante</span>
+					<span data-slide-title="3">pez<br>leon </span>
+					<div class="meta">Status</div>
+					<div id="slide-status">Critically Endangered</div>
+					<span data-slide-status="0">Critically Endangered</span>
+					<span data-slide-status="1">Endangered</span>
+					<span data-slide-status="2">Endangered</span>
+					<span data-slide-status="3">Least Concern</span>
+				</div>
+			</div>
+		<!--IMAGENES SUJETAS A LOS BOTONES DE TRANCICION (IMPORTANTE SI MODIFICAS UNA VE QUE COINCIDA CON LOS DE EL APARTADO DE BUTTON)-->
+			<img src="img/degradado.png"/>
+			<img src="img/d1.jpg"/>
+			<img src="img/manta.avif"/>
+			<img src="img/pezleon.jpg"/>
+
+			<div id="pagination">
+				<button class="active" data-slide="0"></button>
+				<button data-slide="1"></button>
+				<button data-slide="2"></button>
+				<button data-slide="3"></button>
+			</div>
+
+		</div>
+	</main>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40525870-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-40525870-5');
+</script>
+
+	</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
