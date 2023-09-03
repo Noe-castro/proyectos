@@ -1,5 +1,0 @@
-1 regresar el cambio generado - con el nombre "edicion multiple"
-
-2- cambiar nombres de Animales y sincronizar cambios y poner comentario referente al cambio.
-
-3- publicar cambios
