@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ANIMALES ASOMBROSOS</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- carga la pagina principal -->
+<body class="loading">
+
+	<!--start  header inicia -  con los titulos para deslizarnos entre paginas  -->
+
+	<header>
+		<div class="inner">
+			<div class="burger "></div>
+			<nav>
+				<a href="index.html">sobre tierra</a>
+				<a href="marinos.html">En las profundidades</a>
+				<a href="aves.html">En las alturas</a>
+				<a href="insectos.html">pequeños mostruos</a>
+				<a href="dinos.html">Reyes del pasado</a>
+				<a class="active"  href="serpientes.html">Serpientes</a>
+			</nav>
+		</div>
+
+		<header>
+			<nav>
+			   <a href="index.html"><img src="https://www.eniun.com/wp-content/uploads/ENIUN@1x.png" alt="Eniun logo" width="74" height="33"></a>
+			   <ul>
+				   <li><a href="#">Home</a></li>
+				   <li><a href="#">Services</a></li>
+				   <li><a href="#">Contact</a></li>
+			   </ul>
+			</nav>
+		 </header>
+		 <div class="parallax">
+		   <img src="https://www.eniun.com/wp-content/uploads/ENIUNLogotipo.png">
+			<h1>Eniun</h1>
+		 </div>
+		 <div class="call-to-action">
+		   <h2>This is a call to action element</h2>
+		   <p class="big">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation<p>
+		   <button>Call to action</button>
+		 </div>
+		   <div class="info-box">
+		   <h2>This is an info-box</h2>
+			 <div id="flex-p">  
+			   <p class="big"><i class="fas fa-star"></i><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci incidunt, laudantium nostrum minus fuga aut dolore fugit cupiditate qui.</p>
+			   <p class="big"><i class="fas fa-thumbs-up"></i><br>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+			 <p class="big"><i class="fas fa-check"></i><br>Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+			 </div>
+		 </div>
+		  <div class="description-box">
+			<h2>Articles</h2>
+			<div class="img-container">
+			 <img src="https://www.eniun.com/wp-content/uploads/factores-clave-para-el-SEO.png">
+			  <p class="big">Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Nullam id dolor id nibh ultricies vehicula.</p>
+			 </div>
+			 <div class="img-container">
+			 <img src="https://www.eniun.com/wp-content/uploads/contenido-incrustado.png">
+				  <p class="big">Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Nullam id dolor id nibh ultricies vehicula.</p>
+			 </div>
+		   </div>
+		   <footer>
+			 <a href="#"><i class="fab fa-facebook-f"></i></a>
+			 <a href="#"><i class="fab fa-twitter"></i></a>
+			 <a href="#"><i class="fab fa-pinterest-p"></i></a>
+			</footer>
+		   <a id="btn-fixed" href="#"><i class="fab fa-whatsapp"></i></a>
+	
+			
+	</header>
+
+	<!-- ESTE SIRVE PARA INICIAR UN COMENTARIO
+	ESTE SIRVE PARA TERMINAR O CERRAR EL COMENTARIO MUY IMPORTANTE NO OLVIDAR-->
+	<main>
+		<div id="slider">
+
+			<div class="slider-inner">
+				<div id="slider-content">
+					<div class="meta">Species</div>
+					<h2 id="slide-title">PITON <br>VERDE</h2>
+					<span data-slide-title="0">PITON<br>VERDE</span>
+					<span data-slide-title="1">JUVENIL <br>LEOPARDO</span>
+					<span data-slide-title="2">LEON<br>ADULTO</span>
+					<span data-slide-title="3">GRISLE<br>OSO</span>
+					<div class="meta">Status</div>
+					<div id="slide-status">Critically Endangered</div>
+					<span data-slide-status="0">Critically Endangered</span>
+					<span data-slide-status="1">Endangered</span>
+					<span data-slide-status="2">Endangered</span>
+					<span data-slide-status="3">Least Concern</span>
+				</div>
+			</div>
+		<!--IMAGENES SUJETAS A LOS BOTONES DE TRANCICION (IMPORTANTE SI MODIFICAS UNA VE QUE COINCIDA CON LOS DE EL APARTADO DE BUTTON)-->
+			<img src="img/serpientes/serpiente1.png"/>
+			<img src="img/serpientes/serpiente22.jpg"/>
+			<img src="img/serpientes/serpiente3.jpg"/>
+			<img src="img/serpientes/serpiente1.jpg"/>
+
+			<div id="pagination">
+				<button class="active" data-slide="0"></button>
+				<button data-slide="1"></button>
+				<button data-slide="2"></button>
+				<button data-slide="3"></button>
+			</div>
+
+		</div>
+		
+
+	</main>
+
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40525870-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-40525870-5');
+</script>
+
+	</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
